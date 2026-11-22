@@ -50,7 +50,7 @@ def main():
             print(f"Result: {num1} * {num2} = {multiply(num1, num2)}")
         elif choice == '4':
             result = divide(num1, num2)
-            if isinstance(result, str):
+            if isinstance(result, str):                                                                                                                  
                 print(result)
             else:
                 print(f"Result: {num1} / {num2} = {result}")
